@@ -2,7 +2,7 @@
 
 Este proyecto implementa modelos de redes neuronales para resolver un problema de **clasificación binaria** usando `TensorFlow` y `Keras`. Se exploran tres arquitecturas diferentes: un perceptrón simple, una red neuronal con una capa oculta, y una red profunda con múltiples capas ocultas.
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ├── README.md
 ├── requirements.txt
@@ -21,11 +21,11 @@ shell
 Copiar
 Editar
 
-## 📌 Objetivo
+## Objetivo
 
 Construir y comparar diferentes modelos de redes neuronales para un problema de clasificación binaria, evaluando su desempeño y comportamiento con distintas arquitecturas.
 
-## 🧠 Modelos Implementados
+## Modelos Implementados
 
 ### 1. Perceptrón Simple (`model1_perceptron.py`)
 - Una sola neurona con activación sigmoide.
@@ -39,7 +39,7 @@ Construir y comparar diferentes modelos de redes neuronales para un problema de 
 - Tres capas ocultas con 3 neuronas cada una.
 - Activaciones sigmoides en cada capa.
 
-## 🛠️ Tecnologías Usadas
+## Tecnologías Usadas
 
 - Python 3.8+
 - TensorFlow/Keras
@@ -48,7 +48,7 @@ Construir y comparar diferentes modelos de redes neuronales para un problema de 
 - Matplotlib (para visualización)
 - Scikit-learn (para métricas y preprocesamiento)
 
-## 🚀 Instalación
+## Instalación
 
 1. Clona el repositorio:
 
@@ -61,7 +61,7 @@ bash
 Copiar
 Editar
 pip install -r requirements.txt
-🧪 Ejecución del Proyecto
+Ejecución del Proyecto
 bash
 Copiar
 Editar
@@ -76,10 +76,10 @@ Evaluación y comparación con métricas de validación.
 
 Gráficas de entrenamiento.
 
-📊 Resultados
+Resultados
 Se registran las métricas de accuracy y loss para los tres modelos y se grafican para comparación. La idea es observar cómo la profundidad afecta la capacidad de aprendizaje del modelo.
 
-📈 Ejemplo de gráfico de entrenamiento
+Ejemplo de gráfico de entrenamiento
 python
 Copiar
 Editar
@@ -91,7 +91,7 @@ plt.ylabel('Precisión de Validación')
 plt.title('Comparación de Precisión')
 plt.legend()
 plt.show()
-📌 Consideraciones
+Consideraciones
 Las funciones de activación sigmoid fueron utilizadas en todas las capas ocultas para comparar con un perceptrón clásico, aunque ReLU puede ser más eficiente en redes profundas.
 
 Si el modelo sobreajusta, se recomienda añadir técnicas de regularización como Dropout o L2.
